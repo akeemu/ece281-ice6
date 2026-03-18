@@ -118,7 +118,7 @@ begin
 				
 		-- reset the system first
 		w_reset <= '1';
-		wait for k_clk_period;		
+		wait for k_clk_period;	
 		w_reset <= '0';
 		
 		wait; -- let the TDM do its work
